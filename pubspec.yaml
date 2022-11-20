@@ -1,0 +1,45 @@
+name: opentrivia
+description: A new Flutter project.
+
+version: 1.0.2+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+  http: ^0.12.0+2
+  flutter_custom_clippers: ^0.1.6
+  html_unescape: ^1.0.1+2
+  auto_size_text: ^2.0.0+2
+  flutter_launcher_icons: ^0.10.0
+
+#updating your Flutter app's launcher icon
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/logo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/opensans/OpenSans-BoldItalic.ttf
+        - asset: assets/fonts/opensans/OpenSans-BoldItalic.ttf
+          style: italic
+        - asset: assets/fonts/opensans/OpenSans-ExtraBold.ttf
+          weight: 700
+
+  assets:
+    - images/
